@@ -27,7 +27,7 @@ app.post("/api/cart", async (request, response) => {
         error: 'ERROR',
         message: 'The product is already in your cart'
      }
-      response.send(errorMessage);
+      response.status(400).send(errorMessage);
     } else {
         let message = {
         success: true,
@@ -42,7 +42,7 @@ app.post("/api/cart", async (request, response) => {
       error: 'ERROR',
       message: 'The product does not exist'
    }
-   response.send(errorMessage);
+   response.status(404).send(errorMessage);
   };
 });
 
@@ -64,14 +64,14 @@ app.delete("/api/cart/:productId", async (request, response) => {
           error: 'ERROR',
           message: 'The product does not exist in your cart'
        }
-        response.send(errorMessage);
+        response.status(404).send(errorMessage);
       }
     } else {
       const errorMessage = {
         error: 'ERROR',
         message: 'The product does not exist'
      }
-      response.send(errorMessage);
+      response.status(404).send(errorMessage);
     }
   });
 
