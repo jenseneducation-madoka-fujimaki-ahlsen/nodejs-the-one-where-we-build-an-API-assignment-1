@@ -1,0 +1,65 @@
+{
+  "products": [
+    {
+      "id": "19a991f9-0017-4fcc-8fca-b0c00040d711",
+      "name": "Tablet",
+      "price": 2800,
+      "imageUrl": "https://placeimg.com/640/480/tech?t=1579869191799"
+    },
+    {
+      "id": "a1ec9f60-8791-4d42-9428-972c987be5bf",
+      "name": "PC",
+      "price": 15000,
+      "imageUrl": "https://placeimg.com/640/480/tech?t=1579868878632"
+    },
+    {
+      "id": "1cc7f0ec-6162-4f92-9a4f-95080054a523",
+      "name": "Galaxy",
+      "price": 3000,
+      "imageUrl": "https://placeimg.com/640/480/tech?t=1579868849092"
+    },
+    {
+      "id": "a9e0f017-0be3-4bae-be14-08e0e6700a6f",
+      "name": "Headphones",
+      "price": 450,
+      "imageUrl": "https://placeimg.com/640/480/tech?t=1579868931952"
+    },
+    {
+      "id": "620c72bd-79c4-41a4-baf7-8a7296341712",
+      "name": "Camera",
+      "price": 690,
+      "imageUrl": "https://placeimg.com/640/480/tech?t=1579876476137"
+    },
+    {
+      "id": "40312345-3cf0-4e53-b8b9-1ab9cbdf4a50",
+      "name": "Iphone",
+      "price": 5000,
+      "imageUrl": "https://placeimg.com/640/480/tech?t=1579876551498"
+    },
+    {
+      "id": "c3ba2d0e-3e88-4aa0-aa59-f360e460ccf4",
+      "name": "Macbook",
+      "price": 17000,
+      "imageUrl": "https://placeimg.com/640/480/tech?t=1579876696471"
+    },
+    {
+      "id": "92aff2dc-cdb3-46b5-9440-e8916c37146e",
+      "name": "Battery",
+      "price": 55,
+      "imageUrl": "https://placeimg.com/640/480/tech?t=1579876999052"
+    },
+    {
+      "id": "f32a1fd1-d46f-41e0-a3e5-deed705589fe",
+      "name": "Ipad",
+      "price": 1000,
+      "imageUrl": "https://placeimg.com/640/480/tech?t=1579877023789"
+    },
+    {
+      "id": "e82f3585-2ad5-427f-afdf-35df0983e49b",
+      "name": "Macbook Pro",
+      "price": 20000,
+      "imageUrl": "https://placeimg.com/640/480/tech?t=1579876696471"
+    }
+  ],
+  "cart": []
+}
